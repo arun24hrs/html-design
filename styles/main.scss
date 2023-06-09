@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .logo{
+        width: 164px;
+        margin-top: 33px;
+        height: 48px;
+        margin-bottom: 30px;
+    }
+}
+
+
+// navbar
+
+.navbar navbar-expand-lg navbar-light bg-light{
+    padding: 0px;
+    background-color: #fff;
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 55px;
+    margin: auto;
+}
+
+.divider{
+    border-bottom: 1px solid #707070;
+}
+
+//header
+
+.header{
+    display: flex;
+    gap: 65px;
+
+
+    .header-text{
+
+        top: 50px;
+        margin-left: 121px;
+        h2{
+            margin-top: 100px;
+            width: 548px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 18px;
+            width: 520px;
+            height: 120px;
+        }
+        
+    }
+
+    .header-img-container{
+        .header-img{
+            width: 500px;
+            height: 518px;
+        }
+    }
+
+}
+
+.wave-container{
+position: absolute;
+top: 320px;
+width: 100%;
+
+button{
+    position: relative;
+    top: 180px;
+    left: 121px;
+    width: 247px;
+    height: 65px;
+    background-color: #1492E6;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 33px;
+    border: none;
+    color: #fff;
+    margin-top: 62px;
+}
+
+}
+
+
+//section 2
+
+.section-2{
+    background-color: #F8FAFC;
+    padding-top: 100px;
+    .heading{
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .section2-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 57px;
+        margin: auto 138px;
+        padding-bottom: 86px;
+        
+        .section2-grid-card{
+            box-shadow: 0px 3px 6px #00000029;
+            padding: 38px 16px 48px 16px;
+            border-radius: 19px;
+
+            h3{
+                font-size: 18px;
+                text-align: center;
+            }
+
+        }
+    }
+}
+
+.features-section{
+    padding-top: 100px;
+
+    h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .features-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 57px;
+        margin: 100px;
+        padding-bottom: 86px;
+
+        img{
+            width: 185px;
+            height: 151px;
+        }
+
+        h3{
+            margin-top: 33px;
+            font-size: 18px;
+        }
+    }
+}
+
+.service-section{
+
+    h2{
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+//testimonials
+
+.testimonial-sec{
+    margin-top: 110px;
+
+    h2{
+        font-size: 35px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .testimonial-card-container{
+        box-shadow: 0px 16px 48px #00000029;
+        width: 90%;
+        margin: auto;
+        height: 365px;
+        padding: 30px;
+        border-radius: 42px;
+
+        img{
+            width: 64px;
+        }
+
+        .sub-heading{
+            display: inline;
+            margin-left: 13px;
+        }
+    }
+
+    .testimonial-card{
+        display: flex;
+        gap: 27px;
+        margin: auto 150px;
+        margin-top: -200px;
+        position: absolute;
+
+        .test-card-heading{
+            box-shadow: 0px 16px 48px #00000029;
+            border-radius: 30px;
+            background: #FFFFFF;
+            padding: 20px;
+            .card-header{
+                position: relative;
+                display: flex;
+                background-color: #fff;
+                border: none;
+                .customer-details{
+                    padding-top: 5px;
+                    .customer-name{
+                        font-size: 13px;
+                        font-weight: bold;
+                    }
+                    .customer-designation{
+                        font-size: 13px;
+                        color: #615C5C;
+                        margin-top: -15px;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .ratings{
+                    position: absolute;
+                    left: 160px;
+
+                    .ratings-star{
+                        width: 14px;
+                    }
+                }
+
+                .avatar-container{
+                    margin-right: 10px;
+                    margin-left: -15px;
+                }
+            }
+
+            .review{
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+
+// Client Section 
+
+.client-section{
+    h2{
+        font-size: 35px;
+    }
+}
